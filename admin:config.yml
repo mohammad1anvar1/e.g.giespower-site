@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "products"
+    label: "Products"
+    file: "products.json"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "SKU", name: "sku", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Price", name: "price", widget: "number" }
+      - { label: "Power (kW)", name: "kw", widget: "number" }
+      - { label: "Weight (kg)", name: "weight_kg", widget: "number" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Stripe/PayPal Link", name: "paymentLink", widget: "string" }
