@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "assets"
+public_folder: "/assets"
+collections:
+  - name: "catalog"
+    label: "Products"
+    files:
+      - file: "products.json"
+        label: "Products JSON"
+        name: "products"
+        fields:
+          - {label: Products, name: items, widget: list, fields: [
+              {label: SKU, name: sku, widget: string},
+              {label: Name, name: name, widget: string},
+              {label: Category, name: category, widget: string},
+              {label: Price, name: price, widget: number, valueType: float},
+              {label: kW, name: kw, widget: number, valueType: float, required: false},
+              {label: Weight (kg), name: weight_kg, widget: number, valueType: float, required: false},
+              {label: Image, name: image, widget: image, required: false},
+              {label: Description, name: description, widget: text, required: false},
+              {label: Stripe/Payment Link, name: paymentLink, widget: string, required: false}
+            ]}
+  - name: "i18n"
+    label: "Translations"
+    files:
+      - file: "i18n/en.json"
+        label: "English"
+        name: "en"
+        fields: [{label: JSON, name: data, widget: code, default_language: "json", output_code_only: true}]
+      - file: "i18n/ar.json"
+        label: "Arabic"
+        name: "ar"
+        fields: [{label: JSON, name: data, widget: code, default_language: "json", output_code_only: true}]

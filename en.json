@@ -1,0 +1,92 @@
+{
+  "title": {
+    "home": "GIES Power — Renewable Products & Solutions",
+    "products": "Products — GIES Power",
+    "services": "Services — GIES Power",
+    "education": "Education — GIES Power",
+    "about": "About — GIES Power",
+    "contact": "Contact — GIES Power"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "education": "Education",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "footer": {
+    "tagline": "For Better Future"
+  },
+  "home": {
+    "title": "Hybrid Wind–Solar Power, Ducted Turbines & PSG Generators",
+    "subtitle": "High-efficiency DCR wind turbines, Planetary Synchronous Generators, flexible PV, EV chargers, and green hydrogen systems.",
+    "cta_shop": "Shop Products",
+    "cta_services": "Explore Services",
+    "cta_band": "Build your clean‑energy system with GIES.",
+    "contact_sales": "Contact Sales"
+  },
+  "feature": {
+    "dcr": "Ducted Counter‑Rotating (DCR) Turbines",
+    "dcr_txt": "Up to 2× energy vs. open‑bladed turbines of same size, low noise/vibration, compact.",
+    "psg": "Planetary Synchronous Generator (PSG)",
+    "psg_txt": "Brushless, compact, high-efficiency generator/motor design with wide RPM and power ranges.",
+    "greenH2": "Green Hydrogen",
+    "greenH2_txt": "Modular wind‑solar‑powered electrolyzer systems for clean hydrogen production."
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Order components and complete systems. International shipping available."
+  },
+  "cart": {
+    "title": "Your Cart",
+    "total": "Total:",
+    "checkout": "Checkout",
+    "note": "For B2B orders and freight quotes, submit your cart and our team will contact you with final shipping & lead time."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "From yacht electrification to commercial EV charging and utility‑scale wind‑solar plants.",
+    "yachts": "Powering Yachts/Boats by Green Energy",
+    "yachts_txt": "Install DCR wind turbines and flexible PV to supply vessels from green sources.",
+    "pmMotors": "Installing PM Motors for EV Yachts",
+    "pmMotors_txt": "High‑efficiency BLDC/PSG motors from 500 W to 100 kW (24–144 V DC).",
+    "convertDiesel": "Converting Diesel Yachts to Electric",
+    "convertDiesel_txt": "Replace aging diesel engines with clean, low‑maintenance electric propulsion.",
+    "hybridCharger": "Hybrid Wind‑Solar EV Chargers",
+    "hybridCharger_txt": "Ready‑to‑install stations with battery storage; options for low‑wind sites.",
+    "greenH2": "Green Hydrogen Production",
+    "greenH2_txt": "Modular electrolyzer stations powered by DCR wind towers and PV arrays.",
+    "hybridPlants": "Hybrid Wind‑Solar Power Plants",
+    "hybridPlants_txt": "Hexagonal turbine arrays for 30% higher efficiency; scalable and low maintenance."
+  },
+  "education": {
+    "title": "GIES Education",
+    "subtitle": "Hands‑on training: assembly, maintenance, winding, simulation (JMAG) and more.",
+    "center": "Educational Center",
+    "benefits": "Advantages",
+    "item1": "Access to lab equipment and testing",
+    "item2": "Assemblies of renewable products",
+    "item3": "PM motor/generator winding & rotor assembly",
+    "item4": "Simulation software learning",
+    "benefit1": "Enhanced engagement and motivation",
+    "benefit2": "Improved understanding & retention",
+    "benefit3": "Critical thinking & problem‑solving",
+    "benefit4": "Real‑world preparation & confidence"
+  },
+  "about": {
+    "title": "About GIES",
+    "subtitle": "UAE‑based engineers inventing compact, efficient renewable solutions.",
+    "txt1": "We design and manufacture PSG generators, ducted counter‑rotating wind turbines, green EV chargers and modular green hydrogen stations.",
+    "txt2": "Our patented RCPMG (2021158131) and next‑gen PSG deliver high power density and >95% efficiency in compact footprints."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Tell us about your project. We ship worldwide.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
+}

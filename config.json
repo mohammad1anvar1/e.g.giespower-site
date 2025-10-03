@@ -1,0 +1,34 @@
+{
+  "stripePublishableKey": "pk_live_or_test_replace_me",
+  "paypalClientId": "YOUR_PAYPAL_CLIENT_ID",
+  "crmWebhookUrl": "",
+  "shipping": {
+    "countries": {
+      "UAE": {
+        "vat": 0.05,
+        "base": 50,
+        "perKg": 2.5
+      },
+      "UK": {
+        "vat": 0.2,
+        "base": 70,
+        "perKg": 3.0
+      },
+      "EU": {
+        "vat": 0.21,
+        "base": 80,
+        "perKg": 3.2
+      },
+      "USA": {
+        "vat": 0.0,
+        "base": 85,
+        "perKg": 4.0
+      },
+      "ROW": {
+        "vat": 0.0,
+        "base": 95,
+        "perKg": 4.5
+      }
+    }
+  }
+}

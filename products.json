@@ -1,0 +1,90 @@
+[
+  {
+    "sku": "PSG-1KW",
+    "name": "Planetary Synchronous Generator — 1 kW",
+    "price": 1800,
+    "image": "assets/image_3.jpeg",
+    "category": "Generators",
+    "description": "Brushless high‑efficiency PSG with compact rotor/stator; wide RPM range.",
+    "kw": 1,
+    "weight_kg": 8,
+    "paymentLink": ""
+  },
+  {
+    "sku": "PSG-10KW",
+    "name": "Planetary Synchronous Generator — 10 kW",
+    "price": 6200,
+    "image": "assets/image_4.jpeg",
+    "category": "Generators",
+    "description": "Liquid‑cooling ready at high RPM; smooth torque using NdFeB pattern.",
+    "kw": 10,
+    "weight_kg": 20,
+    "paymentLink": ""
+  },
+  {
+    "sku": "DCR-3KW",
+    "name": "DCR Ducted Counter‑Rotating Turbine — 3 kW",
+    "price": 8900,
+    "image": "assets/image_2.jpeg",
+    "category": "Wind Turbines",
+    "description": "Shrouded dual‑rotor turbine; compact, low noise; urban‑friendly.",
+    "kw": 3,
+    "weight_kg": 90,
+    "paymentLink": ""
+  },
+  {
+    "sku": "DCR-10KW",
+    "name": "DCR Ducted Counter‑Rotating Turbine — 10 kW",
+    "price": 21900,
+    "image": "assets/image_5.jpeg",
+    "category": "Wind Turbines",
+    "description": "Up to 2× energy vs. open‑bladed turbines of same size.",
+    "kw": 10,
+    "weight_kg": 220,
+    "paymentLink": ""
+  },
+  {
+    "sku": "PV-FLEX-400W",
+    "name": "Flexible PV Solar Panel — 400 W",
+    "price": 320,
+    "image": "assets/image_6.jpeg",
+    "category": "Solar",
+    "description": "Portable, lightweight curved panel for boats, RVs & rooftops.",
+    "kw": 0.4,
+    "weight_kg": 3,
+    "paymentLink": ""
+  },
+  {
+    "sku": "PV-BIFACIAL-600W",
+    "name": "Bifacial PV Solar Panel — 600 W",
+    "price": 420,
+    "image": "assets/image_7.jpeg",
+    "category": "Solar",
+    "description": "210mm wafers, multi‑busbar tech; 10–30% rear‑side gain.",
+    "kw": 0.6,
+    "weight_kg": 12,
+    "paymentLink": ""
+  },
+  {
+    "sku": "EV-CHARGER-HYBRID",
+    "name": "Hybrid Wind‑Solar EV‑Charger",
+    "price": 15900,
+    "image": "assets/image_8.jpeg",
+    "category": "EV Charging",
+    "description": "Battery‑backed; options for low‑wind sites and commercial stations.",
+    "kw": 15,
+    "weight_kg": 350,
+    "paymentLink": ""
+  },
+  {
+    "sku": "GREEN-H2-MOD",
+    "name": "Modular Green Hydrogen Station (Starter)",
+    "price": 95000,
+    "image": "assets/image_9.jpeg",
+    "category": "Hydrogen",
+    "description": "Wind‑solar‑powered electrolyzer package; scalable modules.",
+    "kw": 50,
+    "weight_kg": 1500,
+    "paymentLink": ""
+  }
+]

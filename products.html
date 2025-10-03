@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="title.products">GIES Power</title>
+  <link rel="stylesheet" href="../"styles.css">
+  <link rel="preconnect" href="../"https://fonts.googleapis.com">
+  <link rel="preconnect" href="../"https://fonts.gstatic.com" crossorigin>
+  <link href="../"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <div class="logo">GIES</div>
+    <div class="brand-sub">Renewable Solutions</div>
+  </div>
+  <nav class="nav">
+    <a href="../"index.html" data-i18n="nav.home">Home</a>
+    <a href="../"products.html" data-i18n="nav.products">Products</a>
+    <a href="../"services.html" data-i18n="nav.services">Services</a>
+    <a href="../"education.html" data-i18n="nav.education">Education</a>
+    <a href="../"about.html" data-i18n="nav.about">About</a>
+    <a href="../"contact.html" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <div class="actions">
+    <select id="langSelect" aria-label="Language">
+      <option value="en">EN</option>
+      <option value="ar">AR</option>
+    </select>
+    <a class="cart-button" href="../"products.html#cart" data-i18n="nav.cart">Cart</a>
+  </div>
+</header>
+
+
+<section class="page-header">
+  <h1 data-i18n="products.title">Products</h1>
+  <p data-i18n="products.subtitle">Order components and complete systems. International shipping available.</p>
+</section>
+
+<section id="productGrid" class="product-grid"></section>
+
+<section id="cart" class="cart">
+  <h2 data-i18n="cart.title">Your Cart</h2>
+  <div id="cartItems"></div>
+  <div class="cart-summary">
+    <span data-i18n="cart.total">Total:</span> <strong id="cartTotal">0</strong>
+  </div>
+  <button class="btn primary" id="checkoutBtn" data-i18n="cart.checkout">Checkout</button>
+  <p class="note" data-i18n="cart.note">For B2B orders and freight quotes, submit your cart and our team will contact you with final shipping & lead time.</p>
+</section>
+
+
+<footer class="site-footer">
+  <div>
+    <strong>GIES Power</strong> — <span data-i18n="footer.tagline">For Better Future</span>
+  </div>
+  <div>Phone: <a href="../"tel:+971501010190">+971 50 101 0190</a> · Email: <a href="../"mailto:mohammad1anvar1@gmail.com">mohammad1anvar1@gmail.com</a></div>
+  <div><a href="../"https://www.giespower.com" target="_blank" rel="noopener">giespower.com</a></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
